@@ -38,7 +38,12 @@ public class RandomWriter {
          * Calculate probabilities
          */
         while (fs.ready()) {
-            window.append((char) fs.read());
+            char nextChar = (char) fs.read();
+
+            if (nextChar == '\r' || nextChar == '\n')
+                nextChar = ' ';
+
+            window.append(nextChar);
             String currentKey = window.substring(0, k);   // get all but last character
             
             if (probs.containsKey(currentKey)) {

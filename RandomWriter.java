@@ -1,5 +1,7 @@
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.HashMap;
 import java.util.Random;
 
@@ -55,7 +57,7 @@ public class RandomWriter {
     }
 
     public String write(int length) {
-        StringBuffer output = new StringBuffer("fucki");     // hardcoded initial seed
+        StringBuffer output = new StringBuffer(getSeed());     // hardcoded initial seed
         int charsRemaining = length - k;
 
         for (int i = 0; i < charsRemaining; i++) {
@@ -70,6 +72,11 @@ public class RandomWriter {
         }
 
         return output.toString();
+    }
+
+    private String getSeed() {
+        List<String> keys = new ArrayList<>(probs.keySet());
+        return keys.get(rand.nextInt(keys.size()));
     }
 
     public static void main(String[] args) {

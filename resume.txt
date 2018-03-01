@@ -1,0 +1,79 @@
+Andy Yang
+US Citizen |
+408.582.4576 |
+achyang@ucdavis.edu |
+achyang |
+andytheyang
+EDUCATION
+University of California, Davis
+B.S. Computer Science, minor in Technology Management
+Graduating June 2018
+GPA: 3.23/4.0
+SKILLS
+Programming
+> Java
+> Python
+> C / C++
+> SQL
+> C#
+> HTML
+> JavaScript
+> TypeScript
+Frameworks, Software, and Technologies
+> Angular
+> Git
+> PostgreSQL
+> Electron
+> Docker
+> Oracle DB
+> RESTful API
+> UNIX
+EXPERIENCE
+eBay | San Jose, CA
+June 2017 – September 2017
+Software Engineering Contractor
+> Created a utility in Java and Athena CQS (in-house query engine) to automatically track seller performance and assign pricing
+promotions on a set of criteria, reducing workload and chances of errors on billing and business departments
+> Developed a batch to re-verify pricing at the scale of tens of millions of transactions, enabling eBay to autonomously self-
+check its pricing engine
+> Optimized pricing re-verification batch utility on changing sets of system constraints, allowing for the batch to be run over a
+period of days without operator intervention. Eventually modified to run the task in a matter of hours.
+IBM | San Jose, CA
+June 2016 – April 2017
+Software Engineering Intern
+> Fix bugs and migrate RFT Data Studio test scripts to allow for automated testing of software features and interfacing with EC
+mainframe machines
+> Resolved Java build errors throughout a large set of legacy libraries to support a migration to an updated version of RFT
+Sacramento County Sanitation District | Elk Grove, CA
+October 2015 – June 2016
+Software Engineering Intern
+> Developed a report generation tool in VBA and PowerShell to automate reports using live plant data, so that report data
+intervals can be calculated and executed automatically, reducing manual spreadsheeting required by its users
+ExactBid | San Jose, CA
+July 2015 – September 2015
+Software Engineering Intern
+> Developed customer onboarding utility in C#, XML, and PowerShell to automate bank onboarding tasks, reducing
+engineering resources required to onboard a new bank from three teams to one operator
+> Collaborated in an Agile software development team and attended daily SCRUM meetings to track and repair bugs
+PROJECTS
+Warcraft II Map Editor (ongoing) | code available upon request
+September 2017 – Present
+> Wrote map saving and tile-drawing functionality for map editor in TypeScript using Angular, Electron frameworks
+> Used Slack and Git to collaborate and post meetings, pull requests, merge conflicts, etc.
+> Distributed and assigned issues to various group members, kept team up to date on deadlines and tasks
+User-Threading Library | code available upon request
+December 2016 – February 2017
+> User level threading library written in C supporting yielding, semaphore resource locking/blocking, preemption, localized
+thread storage with memory protection
+Personal File and VPN Server (ongoing) | ttcloud.bot.nu
+October 2013 – Present
+> Ubuntu server that hosts OpenVPN services and ownCloud file hosting/sync service for my organization
+> Provided experience with various Linux ecosystem and tools: (ana)cron, pacman, apt-get, vim, X server, Wayland, etc.
+BBS | https://github.com/andytheyang/BBS
+June 2014 – August 2014
+> Created a BBS client and server model using Java sockets and multi-threading
+> Designed to fully utilize Java’s object-oriented model; includes a set of interfaces and abstract classes to allow for porting of
+functionality to different platforms
+INVOLVEMENT
+Theta Tau – Co-ed Professional Engineering Fraternity (Treasurer, Webmaster, Fundraising, Recruitment, Social)
+UC Davis Student Academic Success Center – Tutor for Operating Systems and Programming Languages
